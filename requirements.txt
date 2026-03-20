@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+numpy
+numba
+MetaTrader5
