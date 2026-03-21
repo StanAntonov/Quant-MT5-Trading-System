@@ -152,13 +152,13 @@ MQL5
 Standard library (Trade.mqh)
 
 Project Structure
-text
+```
 QuantHermes/
 ├── QuantHermes.py          # FastAPI server with signal logic
 ├── QuantHermes.mq5         # MQL5 Expert Advisor (EA)
 ├── README.md               # This file
 └── requirements.txt        # Python dependencies
-
+```
 Future Enhancements (Planned):
 Persist all signals and market data to a time‑series database (TimescaleDB)
 Add a backtesting harness using historical data
