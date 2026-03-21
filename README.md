@@ -12,7 +12,7 @@ MQL5 Expert Advisor – Polls the server every few seconds, parses the signal, a
 The EA acts as a thin client: all decision logic resides in the Python server, making the system easy to extend, backtest, and monitor.
 
 Data Flow
-
+```
 ┌─────────────┐      ┌─────────────────────────────┐      ┌──────────────────┐
 │  MetaTrader │      │      Python Signal Server   │      │  MQL5 EA Client  │
 │   Terminal  │      │       (FastAPI + MT5 API)   │      │  (Trade Exec)    │
@@ -46,7 +46,7 @@ Data Flow
       │                           │  8. Manage trailing stops     │
       │                           │     (EA internal loop)        │
       │                           │                               │
-
+```
 
 Mathematical Models & Indicators
 Hurst Exponent (H)
